@@ -1,2 +1,7 @@
-# improved-invention.
-Machine Learning Projects
+# About Project:
+its my first time to working with tensorflow and specially neural network. in this project  I'm gonna train a neural network to detect a different range of clothes. those are classify in several groups e.g T-shirt,shoes, ... and I'm gonna classify them into 10 groups using neural network. I will use tf.keras too, because its a high-level API to build and train models in tensorflow.
+so lets get started!
+# Import data:
+in this project I use a dateset which include 70.000 images from 10 category clothes. we called it Fashion-MNIST dataset. Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. We can access the Fashion MNIST data set directly from TensorFlow. Import and load the Fashion MNIST data directly from TensorFlow.
+As you know, to start a neural network  we should dived data set into four NumPy arrays. two of them are related to training set consist of train_image and train_labels and two of them are related to test set which consist of test_image and test_labels. 
+as I mentioned, the images are 28x28 NumPy arrays and pixel values ranging from 0 to 255. The labels are an array of integers, ranging from 0 to 9. These correspond to the class of clothing the image represents:
